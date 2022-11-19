@@ -1,25 +1,79 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+
+// import {Myclass, Helloclass} from './components/myclass';
+// import Test from './components/index';
+// import { Jsx } from './components/simple';
+// import Props from './components/props';
+// import { Clsprops } from './components/clsprops';
+
+
+
+// import { StateExample } from './components/Cstate';
+// import {Counter} from "./components/counter"
+// import {ClickEvent} from "./components/FunctionclickEvent"
+// import {Statecounter} from "./components/state"
+
+
+// import {EventChange} from "./components/EventChange"
+
+// import Event from "./components/FuncEventchange"
+
+// import Login from './components/Login/Login';
+import Registration from './components/Signup/Signup';
+
 function App() {
+  // const  add = {HNo:21, city:"indore"  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+
+    <Registration />
+
+      {/* <Login /> */}
+   
+  
+    
+
+
+
+      {/* <Event /> */}
+
+      {/* <EventChange  /> */}
+      {/* <ClickEvent /> */}
+      {/* <Props  name="yuvraj" address = {add} /> */}
+      {/* <Statecounter /> */}
+      {/* <Counter />
+      <Clsprops name="bhuvan" heroname="bam"></Clsprops>
+      <Clsprops name="tech" heroname="burner"></Clsprops>
+      <Clsprops name="namaste" heroname="javascript"></Clsprops> */}
     </div>
-  );
+
+
+    //      <StateExample /> 
+
+    // <div className="App">
+    //   <Props name="yuvraj" sername="singh " >
+    //      <p>this my Profational name</p>
+    //   </Props>
+    // <Props name="yashraj"  sername="singh " >
+    //   <button className='change'> click me</button>
+    // </Props>
+    // <Props name="deven"  sername=" singh " >
+    // <Clsprops name="bhuvan" heroname="bam"></Clsprops>
+    // <Clsprops name="tech" heroname="burner"></Clsprops>
+    // <Clsprops name="namaste" heroname="javascript"></Clsprops>
+    // </Props>
+    //   <Test />
+    //   <Helloclass />
+    //   <Helloclass />
+    //   <Helloclass />
+    //   <Myclass />
+    //   <Jsx />
+    // </div>
+  
+  )
+  
 }
 
 export default App;

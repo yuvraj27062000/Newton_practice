@@ -1,0 +1,52 @@
+.login
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 9px black;
+    width: 500px;
+    height: 400px;
+}
+.hadding{
+    text-align: center;
+}
+.label,label
+{
+    /* margin-left:; */
+    /* border: 1px solid black; */
+    text-align: justify;
+    margin-left: 37px;
+    margin-bottom: 2px;
+}
+
+.first,.second 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+input
+{
+    /* width: 90%; */
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 70%;
+    /* border-radius: 10px; */
+    border: none;
+}
+
+button
+{
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
