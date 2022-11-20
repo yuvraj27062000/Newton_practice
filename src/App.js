@@ -21,19 +21,22 @@ import './App.css';
 // import Event from "./components/FuncEventchange"
 
 // import Login from './components/Login/Login';
-import Registration from './components/Signup/Signup';
+// import Registration from './components/Signup/Signup';
+
+import {CurrentAddress} from "./components/AutoFill/Address"
 
 function App() {
   // const  add = {HNo:21, city:"indore"  };
   return (
     <div className='App'>
+      <CurrentAddress />
 
-    <Registration />
+      {/* <Registration /> */}
 
       {/* <Login /> */}
-   
-  
-    
+
+
+
 
 
 
@@ -71,9 +74,9 @@ function App() {
     //   <Myclass />
     //   <Jsx />
     // </div>
-  
+
   )
-  
+
 }
 
 export default App;
