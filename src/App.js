@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 
 // import {Myclass, Helloclass} from './components/myclass';
@@ -23,13 +23,16 @@ import './App.css';
 // import Login from './components/Login/Login';
 // import Registration from './components/Signup/Signup';
 
-import {CurrentAddress} from "./components/AutoFill/Address"
+
+// import {CurrentAddress} from "./components/AutoFill/Address"
+import { NewReducerFunction } from "./components/Reduce/NewReducerFunction";
 
 function App() {
   // const  add = {HNo:21, city:"indore"  };
   return (
     <div className='App'>
-      <CurrentAddress />
+      <NewReducerFunction />
+      {/* <CurrentAddress /> */}
 
       {/* <Registration /> */}
 
